@@ -31,7 +31,7 @@ int main()
     cin >> a >> b;
 
     int g = gcdExtended(a, b, &x, &y);
-    cout << "GCD(" << a << ", " << b
-         << ") = " << g << endl;
+    cout<<"GCD: "<<g<<endl;
+    cout<<"x: "<<x<<" y: "<<y<<endl;
     return 0;
 }
